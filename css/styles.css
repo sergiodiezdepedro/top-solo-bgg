@@ -1,5 +1,5 @@
 :root {
-  --color-bg: #1e293b;
+  --color-bg: #10161f;
   --color-main: #0d9488;
   --color-light: #f0fdfa;
   --color-section-link: #f0fdfa;
@@ -44,6 +44,7 @@ main {
 section {
   display: grid;
   grid-template-columns: 1fr 9fr;
+  column-gap: 1rem;
   align-items: center;
   margin-bottom: 2rem;
 
@@ -66,10 +67,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-light);
+  background-color: var(--color-main);
   border-radius: 0.5rem;
 
   & p {
+    color: var(--color-light);
     font-weight: 900;
   }
 }
