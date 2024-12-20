@@ -1,0 +1,76 @@
+:root {
+  --color-bg: #1e293b;
+  --color-main: #0d9488;
+  --color-light: #f0fdfa;
+  --color-section-link: #f0fdfa;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  font-family: ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa,
+    Manjari, "Arial Rounded MT", "Arial Rounded MT Bold", Calibri,
+    source-sans-pro, sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+header {
+  padding-block: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: var(--color-main);
+  color: var(--color-light);
+  text-align: center;
+}
+
+.header__link {
+  color: var(--color-light);
+}
+
+.header__link:hover {
+  text-decoration: none;
+}
+
+main {
+  margin-inline: auto;
+  width: 95%;
+  max-width: 50rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  & h2 {
+    font-size: 1.3rem;
+  }
+
+  .section__link {
+    color: var(--color-section-link);
+  }
+
+  .section__link:hover {
+    text-decoration: none;
+  }
+}
+
+.position {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-light);
+  border-radius: 0.5rem;
+
+  & p {
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+}
