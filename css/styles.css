@@ -23,6 +23,7 @@ p,
 ul {
   margin: 0;
 }
+
 header {
   position: fixed;
   top: 0;
@@ -45,6 +46,14 @@ header {
   }
 }
 
+.header__link {
+  color: var(--color-light);
+}
+
+.header__link:hover {
+  text-decoration: none;
+}
+
 nav {
   background-color: var(--color-light);
   border-radius: 0 0 16px 16px;
@@ -65,14 +74,6 @@ nav {
       }
     }
   }
-}
-
-.header__link {
-  color: var(--color-light);
-}
-
-.header__link:hover {
-  text-decoration: none;
 }
 
 main {
