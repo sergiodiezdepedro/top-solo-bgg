@@ -87,6 +87,7 @@ main {
   max-width: 50rem;
   margin-inline: auto;
   padding-top: 10rem;
+  margin-bottom: 4rem;
 }
 
 section {
@@ -166,5 +167,24 @@ article {
     & h2 {
       font-size: 1rem;
     }
+  }
+}
+
+footer {
+  padding-block: 1rem;
+  background-color: var(--color-main);
+  border-radius: 16px 16px 0 0;
+  text-align: center;
+
+  & p {
+    color: var(--color-light);
+  }
+
+  & a {
+    color: var(--color-light);
+  }
+
+  small {
+    font-size: 0.75rem;
   }
 }

@@ -3050,5 +3050,15 @@
         </article>
       </section>
     </main>
+    <footer>
+      <p>
+        <span id="currentYear"></span> || by
+        <a href="https://pezhammer.wordpress.com/">pezhammer</a> 🐠
+      </p>
+    </footer>
   </body>
+  <script>
+    document.querySelector("#currentYear").textContent =
+      new Date().getFullYear();
+  </script>
 </html>
