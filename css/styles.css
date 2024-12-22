@@ -5,6 +5,12 @@
   --color-section-link: #f0fdfa;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -153,7 +159,7 @@ article {
   }
 
   section {
-    scroll-margin-top: 232px;
+    scroll-margin-top: 201px;
   }
 
   article {
