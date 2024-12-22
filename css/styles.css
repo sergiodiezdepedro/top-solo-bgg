@@ -183,8 +183,4 @@ footer {
   & a {
     color: var(--color-light);
   }
-
-  small {
-    font-size: 0.75rem;
-  }
 }
