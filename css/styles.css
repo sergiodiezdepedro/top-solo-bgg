@@ -135,6 +135,8 @@ article {
   color: var(--color-light);
 
   & p {
+    font-size: 1.1rem;
+
     &:first-child {
       margin-right: 0.3rem;
     }
